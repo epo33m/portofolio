@@ -166,7 +166,7 @@ export default function Home() {
           <div>
             <Image
               src="/brand/rapm-wordmark-dark.svg"
-              alt="RAPM - Rivoldy Adrian Prawira Makatita"
+              alt="RAPM monogram"
               width={160}
               height={40}
               className="h-8 w-auto"

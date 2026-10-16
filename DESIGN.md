@@ -95,16 +95,16 @@ Remaining slots stay labeled until real data lands:
 
 ## Logo assets (`public/brand/`)
 
-Source: owner-supplied RAPM concept board (`design-system/` origin note in
-`RAPM_Logo_Assets/README.txt`: AI-generated concepts, not production vectors).
-Traced to clean binary SVG paths with vtracer plus PNG/ICO favicon exports.
+Source: owner-supplied board `Minimal M Logo Branding Board` (rounded M
+monogram plus sparkle, RAPM wordmark). Traced to clean binary SVG paths with
+vtracer plus PNG/ICO favicon exports.
 
 | File | Use | Reason |
 | --- | --- | --- |
-| `rapm-mark.svg` | Nav brand mark, favicon source | Standalone M monogram, `currentColor` so it follows context |
-| `rapm-wordmark-dark.svg` | Footer lockup on light | Full RAPM letters plus full name, traced from board |
-| `rapm-wordmark-light.svg` | Reserved for dark surfaces | White version, unused while page is all-light |
-| `favicon.ico`, `icon-*.png`, `apple-touch-icon.png` | Browser chrome | Downscaled from the mark mask |
+| `rapm-mark.svg` | Nav brand mark, favicon source | Rounded M plus sparkle, `currentColor` so it follows context |
+| `rapm-wordmark-dark.svg` | Footer lockup on light | RAPM letters plus sparkle, traced from board |
+| `rapm-wordmark-light.svg` | Reserved for dark surfaces | Same paths (`currentColor` adapts), unused while page is all-light |
+| `favicon.ico`, `icon-*.png`, `apple-touch-icon.png` | Browser chrome | M without sparkle on a cream rounded tile: responsive-logo simplification, sparkle is illegible under 32px |
 
 R-04 note: the four-point star is part of the owner's own monogram
 (identity, explicit instruction), not a generic feature icon. Keep it only
