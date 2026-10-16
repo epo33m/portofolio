@@ -20,7 +20,7 @@ const PROJECTS = [
 export default function Home() {
   return (
     <div className="flex flex-col flex-1">
-      <header className="sticky top-0 z-50 bg-black text-white">
+      <header className="sticky top-0 z-50 bg-[#F2F2F7]/80 text-[#1d1d1f] backdrop-blur-xl">
         <nav
           aria-label="Navigasi utama"
           className="mx-auto flex h-11 max-w-5xl items-center justify-between px-5 text-xs"
@@ -33,7 +33,7 @@ export default function Home() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className="text-white/80 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
+                  className="text-[#1d1d1f]/70 transition-colors hover:text-[#1d1d1f] focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
                 >
                   {link.label}
                 </a>

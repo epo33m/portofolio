@@ -64,8 +64,10 @@ surfaces (white, parchment, dark tile), never from borders or shadows.
 
 ## Sections (content driven, C-3)
 
-1. Global nav: 44px void black bar, name left, anchor links, one contact CTA.
-   Every link points at a section that exists (R-24).
+1. Global nav: 44px light frosted bar (`#F2F2F7` at 80% plus backdrop blur),
+   name left, anchor links, one contact CTA. Owner override recorded: brand
+   file specifies void black, owner chose light. Every link points at a
+   section that exists (R-24).
 2. Hero tile (light): name in hero display, one line role tagline, two pill
    CTAs (selected work anchor, contact anchor). No badge above the H1 (R-09).
 3. Selected work: alternating light and dark full bleed tiles, one project per
