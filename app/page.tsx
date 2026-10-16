@@ -33,7 +33,7 @@ export default function Home() {
             aria-label="Rivoldy Makatita - back to top"
           >
             <Image
-              src="/brand/rapm-mark.svg"
+              src="/brand/rapm-logo-mark.svg"
               alt=""
               width={20}
               height={20}
@@ -165,7 +165,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-5xl flex-col gap-6 md:flex-row md:justify-between">
           <div>
             <Image
-              src="/brand/rapm-wordmark-dark.svg"
+              src="/brand/rapm-logo-wordmark.svg"
               alt="RAPM monogram"
               width={160}
               height={40}

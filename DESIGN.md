@@ -101,9 +101,8 @@ vtracer plus PNG/ICO favicon exports.
 
 | File | Use | Reason |
 | --- | --- | --- |
-| `rapm-mark.svg` | Nav brand mark, favicon source | Rounded M plus sparkle, `currentColor` so it follows context |
-| `rapm-wordmark-dark.svg` | Footer lockup on light | RAPM letters plus sparkle, traced from board |
-| `rapm-wordmark-light.svg` | Reserved for dark surfaces | Same paths (`currentColor` adapts), unused while page is all-light |
+| `rapm-logo-mark.svg` | Nav brand mark, favicon source | Rounded M plus sparkle, `currentColor` so it follows context |
+| `rapm-logo-wordmark.svg` | Footer lockup on light | RAPM letters plus sparkle, traced from board |
 | `favicon.ico`, `icon-*.png`, `apple-touch-icon.png` | Browser chrome | M without sparkle on a cream rounded tile: responsive-logo simplification, sparkle is illegible under 32px |
 
 R-04 note: the sparkle is part of the owner's own monogram (identity,
