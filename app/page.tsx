@@ -1,69 +1,173 @@
-import Image from "next/image";
+const NAV_LINKS = [
+  { label: "Karya", href: "#work" },
+  { label: "Tentang", href: "#about" },
+  { label: "Kontak", href: "#contact" },
+];
+
+const PROJECTS = [
+  {
+    name: "[Proyek 1]",
+    outcome: "[Hasil nyata menyusul]",
+    surface: "light" as const,
+  },
+  {
+    name: "[Proyek 2]",
+    outcome: "[Hasil nyata menyusul]",
+    surface: "dark" as const,
+  },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <div className="flex flex-col flex-1">
+      <header className="sticky top-0 z-50 bg-black text-white">
+        <nav
+          aria-label="Navigasi utama"
+          className="mx-auto flex h-11 max-w-5xl items-center justify-between px-5 text-xs"
+        >
+          <a href="#top" className="font-semibold tracking-tight">
+            [Nama]
+          </a>
+          <ul className="flex items-center gap-5">
+            {NAV_LINKS.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  className="text-white/80 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-[#0071e3]"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </header>
+
+      <main id="top" className="flex flex-1 flex-col">
+        <section className="bg-white px-5 py-20 text-center">
+          <h1 className="mx-auto max-w-3xl text-[28px] font-semibold leading-[1.07] tracking-[-0.28px] min-[420px]:text-[34px] md:text-[40px] min-[1069px]:text-[56px]">
+            [Nama]
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="mx-auto mt-3 max-w-2xl text-[21px] font-semibold leading-[1.19]">
+            [Peran]
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+          <p className="mx-auto mt-4 max-w-xl text-[17px] leading-[1.47]">
+            [Satu kalimat tentang fokus kerja. Tulis setelah konten asli
+            tersedia.]
+          </p>
+          <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <a
+              href="#work"
+              className="rounded-full bg-[#0066cc] px-[22px] py-[11px] text-[17px] text-white transition-transform focus-visible:outline-2 focus-visible:outline-[#0071e3] active:scale-95"
+            >
+              Lihat karya
+            </a>
+            <a
+              href="#contact"
+              className="rounded-full border border-[#0066cc] px-[22px] py-[11px] text-[17px] text-[#0066cc] transition-transform focus-visible:outline-2 focus-visible:outline-[#0071e3] active:scale-95"
+            >
+              Hubungi saya
+            </a>
+          </div>
+        </section>
+
+        <section id="work" aria-label="Karya pilihan" className="flex flex-col">
+          {PROJECTS.map((project) =>
+            project.surface === "light" ? (
+              <article
+                key={project.name}
+                className="bg-[#f5f5f7] px-5 py-20 text-center"
+              >
+                <h2 className="mx-auto max-w-3xl text-[34px] font-semibold leading-[1.1] md:text-[40px]">
+                  {project.name}
+                </h2>
+                <p className="mx-auto mt-3 max-w-xl text-[17px] leading-[1.47]">
+                  {project.outcome}
+                </p>
+                <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#7a7a7a]">
+                  Slot proyek. Isi dengan studi kasus nyata, bukan angka
+                  buatan.
+                </p>
+                <a
+                  href="#contact"
+                  className="mt-6 inline-block text-[17px] text-[#0066cc] focus-visible:outline-2 focus-visible:outline-[#0071e3]"
+                >
+                  Minta studi kasus
+                </a>
+              </article>
+            ) : (
+              <article
+                key={project.name}
+                className="bg-[#272729] px-5 py-20 text-center text-white"
+              >
+                <h2 className="mx-auto max-w-3xl text-[34px] font-semibold leading-[1.1] md:text-[40px]">
+                  {project.name}
+                </h2>
+                <p className="mx-auto mt-3 max-w-xl text-[17px] leading-[1.47] text-white">
+                  {project.outcome}
+                </p>
+                <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#cccccc]">
+                  Slot proyek. Isi dengan studi kasus nyata, bukan angka
+                  buatan.
+                </p>
+                <a
+                  href="#contact"
+                  className="mt-6 inline-block text-[17px] text-[#2997ff] focus-visible:outline-2 focus-visible:outline-[#0071e3]"
+                >
+                  Minta studi kasus
+                </a>
+              </article>
+            ),
+          )}
+        </section>
+
+        <section id="about" className="bg-[#f5f5f7] px-5 py-20">
+          <div className="mx-auto max-w-3xl">
+            <h2 className="text-[34px] font-semibold leading-[1.1] md:text-[40px]">
+              Tentang
+            </h2>
+            <p className="mt-4 text-[17px] leading-[1.47]">
+              [Bio singkat dan jujur: latar, keahlian, dan jenis kerja yang
+              dicari.]
+            </p>
+          </div>
+        </section>
+
+        <section
+          id="contact"
+          className="bg-[#272729] px-5 py-20 text-center text-white"
+        >
+          <h2 className="mx-auto max-w-3xl text-[34px] font-semibold leading-[1.1] md:text-[40px]">
+            Kontak
+          </h2>
+          <p className="mx-auto mt-4 max-w-xl text-[17px] leading-[1.47]">
+            Email: [EMAIL]
+          </p>
+          <p className="mx-auto mt-2 max-w-xl text-[14px] text-[#cccccc]">
+            Profil: [PROFIL] (tambah tautan asli saat tersedia)
+          </p>
+        </section>
       </main>
+
+      <footer className="bg-[#f5f5f7] px-5 py-16 text-[12px] leading-relaxed text-[#333333]">
+        <div className="mx-auto flex max-w-5xl flex-col gap-6 md:flex-row md:justify-between">
+          <p>[Nama] - Portfolio. Halaman ini memakai placeholder jujur.</p>
+          <nav aria-label="Navigasi footer">
+            <ul className="flex gap-5">
+              {NAV_LINKS.map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="text-[#0066cc] focus-visible:outline-2 focus-visible:outline-[#0071e3]"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </div>
   );
 }
