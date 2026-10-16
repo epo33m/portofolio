@@ -26,7 +26,7 @@ in an Apple minimalist language, dial ENERGY 2 / RHYTHM 2 / MOTION 1.
 | Parchment | `#f5f5f7` | Alternating light tiles, footer |
 | Tile dark 1/2/3 | `#272729` / `#2a2a2c` / `#252527` | Alternating dark tiles |
 | Void black | `#000000` | Global nav bar only |
-| Muted | `#7a7a7a` | Fine print, disabled states |
+| Muted | `#7a7a7a` | Disabled states only (fails AA on light, R-25). Secondary text uses `#616161` |
 | Hairline | `#e0e0e0` | 1px borders on cards and chips |
 
 No decorative gradients. No second accent. Neutrals do not count as palette.

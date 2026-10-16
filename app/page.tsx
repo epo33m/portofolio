@@ -84,7 +84,7 @@ export default function Home() {
                 <p className="mx-auto mt-3 max-w-xl text-[17px] leading-[1.47]">
                   {project.outcome}
                 </p>
-                <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#7a7a7a]">
+                <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#616161]">
                   Slot proyek. Isi dengan studi kasus nyata, bukan angka
                   buatan.
                 </p>
