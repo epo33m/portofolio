@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Rivoldy Makatita - Portfolio",
-  description: "[Role] - selected work, about, and contact.",
+  description: "Software Developer - selected work, about, and contact.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

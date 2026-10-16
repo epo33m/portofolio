@@ -49,7 +49,7 @@ export default function Home() {
             Rivoldy Makatita
           </h1>
           <p className="mx-auto mt-3 max-w-2xl text-[21px] font-semibold leading-[1.19]">
-            [Role]
+            Software Developer
           </p>
           <p className="mx-auto mt-4 max-w-xl text-[17px] leading-[1.47]">
             [One line about work focus. Write once real content is available.]
