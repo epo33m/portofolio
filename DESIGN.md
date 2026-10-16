@@ -38,9 +38,11 @@ No decorative gradients. No second accent. Neutrals do not count as palette.
 
 ## Typography
 
-Stack: `system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", sans-serif`.
-On Apple devices this resolves to real SF Pro. Off system, Inter is the substitute
-with `-0.01em` tracking nudge on display sizes.
+Stack: `Plus Jakarta Sans` (via `next/font`, `display: swap`), fallback
+`system-ui, -apple-system, sans-serif`. Reason (R-06): geometric-humanist sans
+with a friendly-confident voice that fits a personal portfolio; tight
+tracking (`-0.28px` hero) is kept from the Apple cadence. Weights used:
+400 / 600 / 700.
 
 | Use | Size / Weight / Leading / Tracking |
 | --- | --- |
