@@ -8,12 +8,12 @@ const PROJECTS = [
   {
     name: "[Proyek 1]",
     outcome: "[Hasil nyata menyusul]",
-    surface: "light" as const,
+    surface: "parchment" as const,
   },
   {
     name: "[Proyek 2]",
     outcome: "[Hasil nyata menyusul]",
-    surface: "dark" as const,
+    surface: "white" as const,
   },
 ];
 
@@ -73,7 +73,7 @@ export default function Home() {
 
         <section id="work" aria-label="Karya pilihan" className="flex flex-col">
           {PROJECTS.map((project) =>
-            project.surface === "light" ? (
+            project.surface === "parchment" ? (
               <article
                 key={project.name}
                 className="bg-[#F2F2F7] px-5 py-20 text-center"
@@ -98,21 +98,21 @@ export default function Home() {
             ) : (
               <article
                 key={project.name}
-                className="bg-[#1C1C1E] px-5 py-20 text-center text-white"
+                className="bg-white px-5 py-20 text-center"
               >
                 <h2 className="mx-auto max-w-3xl text-[34px] font-semibold leading-[1.1] md:text-[40px]">
                   {project.name}
                 </h2>
-                <p className="mx-auto mt-3 max-w-xl text-[17px] leading-[1.47] text-white">
+                <p className="mx-auto mt-3 max-w-xl text-[17px] leading-[1.47]">
                   {project.outcome}
                 </p>
-                <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#cccccc]">
+                <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#6C6C70]">
                   Slot proyek. Isi dengan studi kasus nyata, bukan angka
                   buatan.
                 </p>
                 <a
                   href="#contact"
-                  className="mt-6 inline-block text-[17px] text-[#0091FF] focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
+                  className="mt-6 inline-block text-[17px] text-[#1E6EF4] focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
                 >
                   Minta studi kasus
                 </a>
@@ -135,7 +135,7 @@ export default function Home() {
 
         <section
           id="contact"
-          className="bg-[#1C1C1E] px-5 py-20 text-center text-white"
+          className="bg-white px-5 py-20 text-center"
         >
           <h2 className="mx-auto max-w-3xl text-[34px] font-semibold leading-[1.1] md:text-[40px]">
             Kontak
@@ -143,7 +143,7 @@ export default function Home() {
           <p className="mx-auto mt-4 max-w-xl text-[17px] leading-[1.47]">
             Email: [EMAIL]
           </p>
-          <p className="mx-auto mt-2 max-w-xl text-[14px] text-[#cccccc]">
+          <p className="mx-auto mt-2 max-w-xl text-[14px] text-[#6C6C70]">
             Profil: [PROFIL] (tambah tautan asli saat tersedia)
           </p>
         </section>

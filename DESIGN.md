@@ -71,10 +71,12 @@ surfaces (white, parchment, dark tile), never from borders or shadows.
    section that exists (R-24).
 2. Hero tile (light): name in hero display, one line role tagline, two pill
    CTAs (selected work anchor, contact anchor). No badge above the H1 (R-09).
-3. Selected work: alternating light and dark full bleed tiles, one project per
+3. Selected work: alternating parchment and white tiles, one project per
    tile, headline plus one line outcome plus link. No invented metrics (R-17).
+   Owner override recorded: brand file alternates dark tiles, owner chose
+   all-light. Dark HIG tiles stay in tokens, unused.
 4. About (parchment): short real bio, no third person hype.
-5. Contact (dark tile): email link plus real profile links only.
+5. Contact (white): email link plus real profile links only.
 6. Footer (parchment): fine print, sitemap anchors, no fake columns.
 
 No testimonials (none are real, R-18). No FAQ (no real questions known, R-28).
