@@ -1,18 +1,18 @@
 const NAV_LINKS = [
-  { label: "Karya", href: "#work" },
-  { label: "Tentang", href: "#about" },
-  { label: "Kontak", href: "#contact" },
+  { label: "Work", href: "#work" },
+  { label: "About", href: "#about" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const PROJECTS = [
   {
-    name: "[Proyek 1]",
-    outcome: "[Hasil nyata menyusul]",
+    name: "[Project 1]",
+    outcome: "[Real outcome pending]",
     surface: "parchment" as const,
   },
   {
-    name: "[Proyek 2]",
-    outcome: "[Hasil nyata menyusul]",
+    name: "[Project 2]",
+    outcome: "[Real outcome pending]",
     surface: "white" as const,
   },
 ];
@@ -22,11 +22,11 @@ export default function Home() {
     <div className="flex flex-col flex-1">
       <header className="sticky top-0 z-50 bg-[#F2F2F7]/80 text-[#1d1d1f] backdrop-blur-xl">
         <nav
-          aria-label="Navigasi utama"
+          aria-label="Primary"
           className="mx-auto flex h-11 max-w-5xl items-center justify-between px-5 text-xs"
         >
           <a href="#top" className="font-semibold tracking-tight">
-            [Nama]
+            [Name]
           </a>
           <ul className="flex items-center gap-5">
             {NAV_LINKS.map((link) => (
@@ -46,32 +46,31 @@ export default function Home() {
       <main id="top" className="flex flex-1 flex-col">
         <section className="bg-white px-5 py-20 text-center">
           <h1 className="mx-auto max-w-3xl text-[28px] font-semibold leading-[1.07] tracking-[-0.28px] min-[420px]:text-[34px] md:text-[40px] min-[1069px]:text-[56px]">
-            [Nama]
+            [Name]
           </h1>
           <p className="mx-auto mt-3 max-w-2xl text-[21px] font-semibold leading-[1.19]">
-            [Peran]
+            [Role]
           </p>
           <p className="mx-auto mt-4 max-w-xl text-[17px] leading-[1.47]">
-            [Satu kalimat tentang fokus kerja. Tulis setelah konten asli
-            tersedia.]
+            [One line about work focus. Write once real content is available.]
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
               href="#work"
               className="rounded-full bg-[#1E6EF4] px-[22px] py-[11px] text-[17px] text-white transition-transform focus-visible:outline-2 focus-visible:outline-[#1E6EF4] active:scale-95"
             >
-              Lihat karya
+              View work
             </a>
             <a
               href="#contact"
               className="rounded-full border border-[#1E6EF4] px-[22px] py-[11px] text-[17px] text-[#1E6EF4] transition-transform focus-visible:outline-2 focus-visible:outline-[#1E6EF4] active:scale-95"
             >
-              Hubungi saya
+              Get in touch
             </a>
           </div>
         </section>
 
-        <section id="work" aria-label="Karya pilihan" className="flex flex-col">
+        <section id="work" aria-label="Selected work" className="flex flex-col">
           {PROJECTS.map((project) =>
             project.surface === "parchment" ? (
               <article
@@ -85,14 +84,14 @@ export default function Home() {
                   {project.outcome}
                 </p>
                 <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#6C6C70]">
-                  Slot proyek. Isi dengan studi kasus nyata, bukan angka
-                  buatan.
+                  Project slot. Fill with a real case study, not made-up
+                  numbers.
                 </p>
                 <a
                   href="#contact"
                   className="mt-6 inline-block text-[17px] text-[#1E6EF4] focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
                 >
-                  Minta studi kasus
+                  Request case study
                 </a>
               </article>
             ) : (
@@ -107,14 +106,14 @@ export default function Home() {
                   {project.outcome}
                 </p>
                 <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#6C6C70]">
-                  Slot proyek. Isi dengan studi kasus nyata, bukan angka
-                  buatan.
+                  Project slot. Fill with a real case study, not made-up
+                  numbers.
                 </p>
                 <a
                   href="#contact"
                   className="mt-6 inline-block text-[17px] text-[#1E6EF4] focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
                 >
-                  Minta studi kasus
+                  Request case study
                 </a>
               </article>
             ),
@@ -124,11 +123,11 @@ export default function Home() {
         <section id="about" className="bg-[#F2F2F7] px-5 py-20">
           <div className="mx-auto max-w-3xl">
             <h2 className="text-[34px] font-semibold leading-[1.1] md:text-[40px]">
-              Tentang
+              About
             </h2>
             <p className="mt-4 text-[17px] leading-[1.47]">
-              [Bio singkat dan jujur: latar, keahlian, dan jenis kerja yang
-              dicari.]
+              [Short honest bio: background, skills, and the kind of work
+              sought.]
             </p>
           </div>
         </section>
@@ -138,21 +137,21 @@ export default function Home() {
           className="bg-white px-5 py-20 text-center"
         >
           <h2 className="mx-auto max-w-3xl text-[34px] font-semibold leading-[1.1] md:text-[40px]">
-            Kontak
+            Contact
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-[17px] leading-[1.47]">
             Email: [EMAIL]
           </p>
           <p className="mx-auto mt-2 max-w-xl text-[14px] text-[#6C6C70]">
-            Profil: [PROFIL] (tambah tautan asli saat tersedia)
+            Profiles: [PROFILES] (add real links when available)
           </p>
         </section>
       </main>
 
       <footer className="bg-[#F2F2F7] px-5 py-16 text-[12px] leading-relaxed text-[#333333]">
         <div className="mx-auto flex max-w-5xl flex-col gap-6 md:flex-row md:justify-between">
-          <p>[Nama] - Portfolio. Halaman ini memakai placeholder jujur.</p>
-          <nav aria-label="Navigasi footer">
+          <p>[Name] - Portfolio. This page uses honest placeholders.</p>
+          <nav aria-label="Footer">
             <ul className="flex gap-5">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>

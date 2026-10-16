@@ -90,5 +90,5 @@ no loops, no autoplay. `prefers-reduced-motion` disables everything.
 ## Placeholders (honest, R-23 / R-38)
 
 Owner content not yet supplied. Every slot is labeled until real data lands:
-`[NAMA]`, `[PERAN]`, `[BIO]`, `[PROYEK]` tiles, `[EMAIL]`, `[PROFIL]` links.
+`[NAME]`, `[ROLE]`, `[BIO]`, `[PROJECT]` tiles, `[EMAIL]`, `[PROFILE]` links.
 Nothing fabricated to look final.

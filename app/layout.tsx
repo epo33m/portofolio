@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "[Nama] - Portfolio",
-  description: "[Peran] - selected work, about, and contact.",
+  title: "[Name] - Portfolio",
+  description: "[Role] - selected work, about, and contact.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
