@@ -89,6 +89,7 @@ no loops, no autoplay. `prefers-reduced-motion` disables everything.
 
 ## Placeholders (honest, R-23 / R-38)
 
-Owner content not yet supplied. Every slot is labeled until real data lands:
-`[NAME]`, `[ROLE]`, `[BIO]`, `[PROJECT]` tiles, `[EMAIL]`, `[PROFILE]` links.
+Owner name is Rivoldy Makatita (filled). Remaining slots stay labeled until
+real data lands:
+`[ROLE]`, `[BIO]`, `[PROJECT]` tiles, `[EMAIL]`, `[PROFILE]` links.
 Nothing fabricated to look final.

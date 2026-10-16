@@ -26,7 +26,7 @@ export default function Home() {
           className="mx-auto flex h-11 max-w-5xl items-center justify-between px-5 text-xs"
         >
           <a href="#top" className="font-semibold tracking-tight">
-            [Name]
+            Rivoldy Makatita
           </a>
           <ul className="flex items-center gap-5">
             {NAV_LINKS.map((link) => (
@@ -46,7 +46,7 @@ export default function Home() {
       <main id="top" className="flex flex-1 flex-col">
         <section className="bg-white px-5 py-20 text-center">
           <h1 className="mx-auto max-w-3xl text-[28px] font-semibold leading-[1.07] tracking-[-0.28px] min-[420px]:text-[34px] md:text-[40px] min-[1069px]:text-[56px]">
-            [Name]
+            Rivoldy Makatita
           </h1>
           <p className="mx-auto mt-3 max-w-2xl text-[21px] font-semibold leading-[1.19]">
             [Role]
@@ -150,7 +150,7 @@ export default function Home() {
 
       <footer className="bg-[#F2F2F7] px-5 py-16 text-[12px] leading-relaxed text-[#333333]">
         <div className="mx-auto flex max-w-5xl flex-col gap-6 md:flex-row md:justify-between">
-          <p>[Name] - Portfolio. This page uses honest placeholders.</p>
+          <p>Rivoldy Makatita - Portfolio. This page uses honest placeholders.</p>
           <nav aria-label="Footer">
             <ul className="flex gap-5">
               {NAV_LINKS.map((link) => (
