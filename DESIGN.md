@@ -106,7 +106,7 @@ vtracer plus PNG/ICO favicon exports.
 | `rapm-wordmark-light.svg` | Reserved for dark surfaces | Same paths (`currentColor` adapts), unused while page is all-light |
 | `favicon.ico`, `icon-*.png`, `apple-touch-icon.png` | Browser chrome | M without sparkle on a cream rounded tile: responsive-logo simplification, sparkle is illegible under 32px |
 
-R-04 note: the board's sparkle was removed by explicit owner request
-("ada bintangnya di M nya"). Brand assets ship starless: mark, wordmark,
-and favicon. Never reintroduce it as decoration.
+R-04 note: the sparkle is part of the owner's own monogram (identity,
+explicit instruction), not a generic feature icon. Removed once by request,
+reinstated by request. Keep it only in brand assets, never as UI decoration.
 Nothing fabricated to look final.
