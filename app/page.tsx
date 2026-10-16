@@ -52,7 +52,7 @@ export default function Home() {
             Software Developer
           </p>
           <p className="mx-auto mt-4 max-w-xl text-[17px] leading-[1.47]">
-            [One line about work focus. Write once real content is available.]
+            Building what's next.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
