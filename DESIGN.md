@@ -38,11 +38,10 @@ No decorative gradients. No second accent. Neutrals do not count as palette.
 
 ## Typography
 
-Stack: `-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
-system-ui, sans-serif`. Reason (R-06): San Francisco is the Apple voice and
-this system follows the Apple language. It is proprietary, so no webfont is
-bundled: Apple devices render real SF, other platforms fall back to the
-system sans. Weights used: 400 / 600 / 700.
+Stack: `Inter` (via `next/font`, `display: swap`, latin), fallback
+`system-ui, -apple-system, sans-serif`. Reason (R-06): closest open,
+cross-platform stand-in for the Apple cadence with tight tracking kept
+(`-0.28px` hero). Weights used: 400 / 600 / 700.
 
 | Use | Size / Weight / Leading / Tracking |
 | --- | --- |

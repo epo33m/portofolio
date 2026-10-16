@@ -58,9 +58,7 @@
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
-  /* San Francisco: proprietary Apple font, resolved by the OS on Apple
-     devices. No webfont is bundled; other platforms fall back gracefully. */
-  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+  /* --font-sans is served by next/font (Inter) via layout.tsx. */
   /* Apple HIG system colors (design-system/apple-hig-system-colors.csv).
      Single accent kept: Blue only. Default Blue fails AA on white (3.52:1),
      so surfaces use Increased Contrast variants. */
