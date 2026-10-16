@@ -33,7 +33,7 @@ export default function Home() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className="text-white/80 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-[#0071e3]"
+                  className="text-white/80 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
                 >
                   {link.label}
                 </a>
@@ -58,13 +58,13 @@ export default function Home() {
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
               href="#work"
-              className="rounded-full bg-[#0066cc] px-[22px] py-[11px] text-[17px] text-white transition-transform focus-visible:outline-2 focus-visible:outline-[#0071e3] active:scale-95"
+              className="rounded-full bg-[#1E6EF4] px-[22px] py-[11px] text-[17px] text-white transition-transform focus-visible:outline-2 focus-visible:outline-[#1E6EF4] active:scale-95"
             >
               Lihat karya
             </a>
             <a
               href="#contact"
-              className="rounded-full border border-[#0066cc] px-[22px] py-[11px] text-[17px] text-[#0066cc] transition-transform focus-visible:outline-2 focus-visible:outline-[#0071e3] active:scale-95"
+              className="rounded-full border border-[#1E6EF4] px-[22px] py-[11px] text-[17px] text-[#1E6EF4] transition-transform focus-visible:outline-2 focus-visible:outline-[#1E6EF4] active:scale-95"
             >
               Hubungi saya
             </a>
@@ -76,7 +76,7 @@ export default function Home() {
             project.surface === "light" ? (
               <article
                 key={project.name}
-                className="bg-[#f5f5f7] px-5 py-20 text-center"
+                className="bg-[#F2F2F7] px-5 py-20 text-center"
               >
                 <h2 className="mx-auto max-w-3xl text-[34px] font-semibold leading-[1.1] md:text-[40px]">
                   {project.name}
@@ -84,13 +84,13 @@ export default function Home() {
                 <p className="mx-auto mt-3 max-w-xl text-[17px] leading-[1.47]">
                   {project.outcome}
                 </p>
-                <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#616161]">
+                <p className="mx-auto mt-4 max-w-xl text-[14px] text-[#6C6C70]">
                   Slot proyek. Isi dengan studi kasus nyata, bukan angka
                   buatan.
                 </p>
                 <a
                   href="#contact"
-                  className="mt-6 inline-block text-[17px] text-[#0066cc] focus-visible:outline-2 focus-visible:outline-[#0071e3]"
+                  className="mt-6 inline-block text-[17px] text-[#1E6EF4] focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
                 >
                   Minta studi kasus
                 </a>
@@ -98,7 +98,7 @@ export default function Home() {
             ) : (
               <article
                 key={project.name}
-                className="bg-[#272729] px-5 py-20 text-center text-white"
+                className="bg-[#1C1C1E] px-5 py-20 text-center text-white"
               >
                 <h2 className="mx-auto max-w-3xl text-[34px] font-semibold leading-[1.1] md:text-[40px]">
                   {project.name}
@@ -112,7 +112,7 @@ export default function Home() {
                 </p>
                 <a
                   href="#contact"
-                  className="mt-6 inline-block text-[17px] text-[#2997ff] focus-visible:outline-2 focus-visible:outline-[#0071e3]"
+                  className="mt-6 inline-block text-[17px] text-[#0091FF] focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
                 >
                   Minta studi kasus
                 </a>
@@ -121,7 +121,7 @@ export default function Home() {
           )}
         </section>
 
-        <section id="about" className="bg-[#f5f5f7] px-5 py-20">
+        <section id="about" className="bg-[#F2F2F7] px-5 py-20">
           <div className="mx-auto max-w-3xl">
             <h2 className="text-[34px] font-semibold leading-[1.1] md:text-[40px]">
               Tentang
@@ -135,7 +135,7 @@ export default function Home() {
 
         <section
           id="contact"
-          className="bg-[#272729] px-5 py-20 text-center text-white"
+          className="bg-[#1C1C1E] px-5 py-20 text-center text-white"
         >
           <h2 className="mx-auto max-w-3xl text-[34px] font-semibold leading-[1.1] md:text-[40px]">
             Kontak
@@ -149,7 +149,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="bg-[#f5f5f7] px-5 py-16 text-[12px] leading-relaxed text-[#333333]">
+      <footer className="bg-[#F2F2F7] px-5 py-16 text-[12px] leading-relaxed text-[#333333]">
         <div className="mx-auto flex max-w-5xl flex-col gap-6 md:flex-row md:justify-between">
           <p>[Nama] - Portfolio. Halaman ini memakai placeholder jujur.</p>
           <nav aria-label="Navigasi footer">
@@ -158,7 +158,7 @@ export default function Home() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-[#0066cc] focus-visible:outline-2 focus-visible:outline-[#0071e3]"
+                    className="text-[#1E6EF4] focus-visible:outline-2 focus-visible:outline-[#1E6EF4]"
                   >
                     {link.label}
                   </a>

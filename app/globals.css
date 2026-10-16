@@ -59,21 +59,23 @@
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", sans-serif;
-  /* Apple direction (DESIGN.md): single accent, ink, alternating surfaces */
-  --action: #0066cc;
-  --action-focus: #0071e3;
-  --action-on-dark: #2997ff;
+  /* Apple HIG system colors (design-system/apple-hig-system-colors.csv).
+     Single accent kept: Blue only. Default Blue fails AA on white (3.52:1),
+     so surfaces use Increased Contrast variants. */
+  --action: #1E6EF4;
+  --action-focus: #1E6EF4;
+  --action-on-dark: #0091FF;
   --ink: #1d1d1f;
-  --parchment: #f5f5f7;
-  --tile-1: #272729;
-  --tile-2: #2a2a2c;
-  --tile-3: #252527;
-  --ink-muted: #7a7a7a;
+  --parchment: #F2F2F7;
+  --tile-1: #1C1C1E;
+  --tile-2: #2C2C2E;
+  --tile-3: #242426;
+  --ink-muted: #6C6C70;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #0066cc;
+  --primary: #1E6EF4;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -84,7 +86,7 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
-  --ring: #0071e3;
+  --ring: #1E6EF4;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
@@ -108,7 +110,7 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: #0066cc;
+  --primary: #1E6EF4;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
@@ -119,7 +121,7 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: #2997ff;
+  --ring: #5CB8FF;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);

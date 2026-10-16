@@ -16,18 +16,23 @@ in an Apple minimalist language, dial ENERGY 2 / RHYTHM 2 / MOTION 1.
 
 ## Palette (single accent, non negotiable)
 
-| Role | Hex | Use |
-| --- | --- | --- |
-| Action Blue | `#0066cc` | Every interactive element on light surfaces |
-| Focus Blue | `#0071e3` | Keyboard focus ring, 2px solid |
-| Sky Link Blue | `#2997ff` | Links on dark tiles only, never on light |
-| Ink | `#1d1d1f` | Headlines and body on light (never pure black) |
-| Canvas | `#ffffff` | Light tiles, cards |
-| Parchment | `#f5f5f7` | Alternating light tiles, footer |
-| Tile dark 1/2/3 | `#272729` / `#2a2a2c` / `#252527` | Alternating dark tiles |
-| Void black | `#000000` | Global nav bar only |
-| Muted | `#7a7a7a` | Disabled states only (fails AA on light, R-25). Secondary text uses `#616161` |
-| Hairline | `#e0e0e0` | 1px borders on cards and chips |
+Source of truth: `design-system/apple-hig-system-colors.csv` (Apple HIG).
+Only Blue is active. Other HIG hues stay reserved (Red increased-contrast
+`#E9152D` is pre-approved for future destructive/error text, 4.56:1 on white).
+
+| Role | Hex (HIG) | Use | Reason |
+| --- | --- | --- | --- |
+| Action Blue | `#1E6EF4` (Blue Increased Contrast Light) | Every interactive element on light surfaces | Default Blue `#0088FF` fails AA on white at 3.52:1, this passes at 4.57:1 |
+| Focus ring | `#1E6EF4` light / `#5CB8FF` dark | Keyboard focus ring, 2px solid | 4.57:1 on white, 7.90:1 on tile |
+| Sky Link Blue | `#0091FF` (Blue Default Dark) | Links on dark tiles only, never on light | 5.26:1 on tile `#1C1C1E` |
+| Ink | `#1d1d1f` | Headlines and body on light (never pure black) | HIG has no fixed label hex; near-black keeps the photographic feel |
+| Canvas | `#ffffff` | Light tiles, cards | HIG light canvas |
+| Parchment | `#F2F2F7` (Gray 6 Light) | Alternating light tiles, footer | HIG surface gray, rhythm against white |
+| Tile dark 1/2/3 | `#1C1C1E` / `#2C2C2E` / `#242426` (Gray 6/5 Dark) | Alternating dark tiles | HIG dark surfaces, micro steps separate stacked tiles |
+| Void black | `#000000` | Global nav bar only | Only true black on the page |
+| Muted | `#6C6C70` (Gray Increased Contrast Light) | Secondary text on light | Default Gray `#8E8E93` fails at 3.26:1, this passes at 5.23:1 |
+| Muted on dark | `#cccccc` | Secondary text on dark tiles | 9.28:1 on tile |
+| Hairline | `#e0e0e0` | 1px borders on cards and chips | Unchanged utility hairline |
 
 No decorative gradients. No second accent. Neutrals do not count as palette.
 

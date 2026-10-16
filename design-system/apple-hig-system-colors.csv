@@ -1,0 +1,73 @@
+Color,API,Appearance,R,G,B,RGB,HEX,Source
+Red,red,Default Light,255,56,60,"RGB(255, 56, 60)",#FF383C,https://developer.apple.com/design/human-interface-guidelines/color
+Red,red,Default Dark,255,66,69,"RGB(255, 66, 69)",#FF4245,https://developer.apple.com/design/human-interface-guidelines/color
+Red,red,Increased Contrast Light,233,21,45,"RGB(233, 21, 45)",#E9152D,https://developer.apple.com/design/human-interface-guidelines/color
+Red,red,Increased Contrast Dark,255,97,101,"RGB(255, 97, 101)",#FF6165,https://developer.apple.com/design/human-interface-guidelines/color
+Orange,orange,Default Light,255,141,40,"RGB(255, 141, 40)",#FF8D28,https://developer.apple.com/design/human-interface-guidelines/color
+Orange,orange,Default Dark,255,146,48,"RGB(255, 146, 48)",#FF9230,https://developer.apple.com/design/human-interface-guidelines/color
+Orange,orange,Increased Contrast Light,197,83,0,"RGB(197, 83, 0)",#C55300,https://developer.apple.com/design/human-interface-guidelines/color
+Orange,orange,Increased Contrast Dark,255,160,86,"RGB(255, 160, 86)",#FFA056,https://developer.apple.com/design/human-interface-guidelines/color
+Yellow,yellow,Default Light,255,204,0,"RGB(255, 204, 0)",#FFCC00,https://developer.apple.com/design/human-interface-guidelines/color
+Yellow,yellow,Default Dark,255,214,0,"RGB(255, 214, 0)",#FFD600,https://developer.apple.com/design/human-interface-guidelines/color
+Yellow,yellow,Increased Contrast Light,161,106,0,"RGB(161, 106, 0)",#A16A00,https://developer.apple.com/design/human-interface-guidelines/color
+Yellow,yellow,Increased Contrast Dark,254,223,67,"RGB(254, 223, 67)",#FEDF43,https://developer.apple.com/design/human-interface-guidelines/color
+Green,green,Default Light,52,199,89,"RGB(52, 199, 89)",#34C759,https://developer.apple.com/design/human-interface-guidelines/color
+Green,green,Default Dark,48,209,88,"RGB(48, 209, 88)",#30D158,https://developer.apple.com/design/human-interface-guidelines/color
+Green,green,Increased Contrast Light,0,137,50,"RGB(0, 137, 50)",#008932,https://developer.apple.com/design/human-interface-guidelines/color
+Green,green,Increased Contrast Dark,74,217,104,"RGB(74, 217, 104)",#4AD968,https://developer.apple.com/design/human-interface-guidelines/color
+Mint,mint,Default Light,0,200,179,"RGB(0, 200, 179)",#00C8B3,https://developer.apple.com/design/human-interface-guidelines/color
+Mint,mint,Default Dark,0,218,195,"RGB(0, 218, 195)",#00DAC3,https://developer.apple.com/design/human-interface-guidelines/color
+Mint,mint,Increased Contrast Light,0,133,117,"RGB(0, 133, 117)",#008575,https://developer.apple.com/design/human-interface-guidelines/color
+Mint,mint,Increased Contrast Dark,84,223,203,"RGB(84, 223, 203)",#54DFCB,https://developer.apple.com/design/human-interface-guidelines/color
+Teal,teal,Default Light,0,195,208,"RGB(0, 195, 208)",#00C3D0,https://developer.apple.com/design/human-interface-guidelines/color
+Teal,teal,Default Dark,0,210,224,"RGB(0, 210, 224)",#00D2E0,https://developer.apple.com/design/human-interface-guidelines/color
+Teal,teal,Increased Contrast Light,0,129,152,"RGB(0, 129, 152)",#008198,https://developer.apple.com/design/human-interface-guidelines/color
+Teal,teal,Increased Contrast Dark,59,221,236,"RGB(59, 221, 236)",#3BDDEC,https://developer.apple.com/design/human-interface-guidelines/color
+Cyan,cyan,Default Light,0,192,232,"RGB(0, 192, 232)",#00C0E8,https://developer.apple.com/design/human-interface-guidelines/color
+Cyan,cyan,Default Dark,60,211,254,"RGB(60, 211, 254)",#3CD3FE,https://developer.apple.com/design/human-interface-guidelines/color
+Cyan,cyan,Increased Contrast Light,0,126,174,"RGB(0, 126, 174)",#007EAE,https://developer.apple.com/design/human-interface-guidelines/color
+Cyan,cyan,Increased Contrast Dark,109,217,255,"RGB(109, 217, 255)",#6DD9FF,https://developer.apple.com/design/human-interface-guidelines/color
+Blue,blue,Default Light,0,136,255,"RGB(0, 136, 255)",#0088FF,https://developer.apple.com/design/human-interface-guidelines/color
+Blue,blue,Default Dark,0,145,255,"RGB(0, 145, 255)",#0091FF,https://developer.apple.com/design/human-interface-guidelines/color
+Blue,blue,Increased Contrast Light,30,110,244,"RGB(30, 110, 244)",#1E6EF4,https://developer.apple.com/design/human-interface-guidelines/color
+Blue,blue,Increased Contrast Dark,92,184,255,"RGB(92, 184, 255)",#5CB8FF,https://developer.apple.com/design/human-interface-guidelines/color
+Indigo,indigo,Default Light,97,85,245,"RGB(97, 85, 245)",#6155F5,https://developer.apple.com/design/human-interface-guidelines/color
+Indigo,indigo,Default Dark,109,124,255,"RGB(109, 124, 255)",#6D7CFF,https://developer.apple.com/design/human-interface-guidelines/color
+Indigo,indigo,Increased Contrast Light,86,74,222,"RGB(86, 74, 222)",#564ADE,https://developer.apple.com/design/human-interface-guidelines/color
+Indigo,indigo,Increased Contrast Dark,167,170,255,"RGB(167, 170, 255)",#A7AAFF,https://developer.apple.com/design/human-interface-guidelines/color
+Purple,purple,Default Light,203,48,224,"RGB(203, 48, 224)",#CB30E0,https://developer.apple.com/design/human-interface-guidelines/color
+Purple,purple,Default Dark,219,52,242,"RGB(219, 52, 242)",#DB34F2,https://developer.apple.com/design/human-interface-guidelines/color
+Purple,purple,Increased Contrast Light,176,47,194,"RGB(176, 47, 194)",#B02FC2,https://developer.apple.com/design/human-interface-guidelines/color
+Purple,purple,Increased Contrast Dark,234,141,255,"RGB(234, 141, 255)",#EA8DFF,https://developer.apple.com/design/human-interface-guidelines/color
+Pink,pink,Default Light,255,45,85,"RGB(255, 45, 85)",#FF2D55,https://developer.apple.com/design/human-interface-guidelines/color
+Pink,pink,Default Dark,255,55,95,"RGB(255, 55, 95)",#FF375F,https://developer.apple.com/design/human-interface-guidelines/color
+Pink,pink,Increased Contrast Light,231,18,77,"RGB(231, 18, 77)",#E7124D,https://developer.apple.com/design/human-interface-guidelines/color
+Pink,pink,Increased Contrast Dark,255,138,196,"RGB(255, 138, 196)",#FF8AC4,https://developer.apple.com/design/human-interface-guidelines/color
+Brown,brown,Default Light,172,127,94,"RGB(172, 127, 94)",#AC7F5E,https://developer.apple.com/design/human-interface-guidelines/color
+Brown,brown,Default Dark,183,138,102,"RGB(183, 138, 102)",#B78A66,https://developer.apple.com/design/human-interface-guidelines/color
+Brown,brown,Increased Contrast Light,149,109,81,"RGB(149, 109, 81)",#956D51,https://developer.apple.com/design/human-interface-guidelines/color
+Brown,brown,Increased Contrast Dark,219,166,121,"RGB(219, 166, 121)",#DBA679,https://developer.apple.com/design/human-interface-guidelines/color
+Gray,systemGray,Default Light,142,142,147,"RGB(142, 142, 147)",#8E8E93,https://developer.apple.com/design/human-interface-guidelines/color
+Gray,systemGray,Default Dark,142,142,147,"RGB(142, 142, 147)",#8E8E93,https://developer.apple.com/design/human-interface-guidelines/color
+Gray,systemGray,Increased Contrast Light,108,108,112,"RGB(108, 108, 112)",#6C6C70,https://developer.apple.com/design/human-interface-guidelines/color
+Gray,systemGray,Increased Contrast Dark,174,174,178,"RGB(174, 174, 178)",#AEAEB2,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 2,systemGray2,Default Light,174,174,178,"RGB(174, 174, 178)",#AEAEB2,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 2,systemGray2,Default Dark,99,99,102,"RGB(99, 99, 102)",#636366,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 2,systemGray2,Increased Contrast Light,142,142,147,"RGB(142, 142, 147)",#8E8E93,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 2,systemGray2,Increased Contrast Dark,124,124,128,"RGB(124, 124, 128)",#7C7C80,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 3,systemGray3,Default Light,199,199,204,"RGB(199, 199, 204)",#C7C7CC,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 3,systemGray3,Default Dark,72,72,74,"RGB(72, 72, 74)",#48484A,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 3,systemGray3,Increased Contrast Light,174,174,178,"RGB(174, 174, 178)",#AEAEB2,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 3,systemGray3,Increased Contrast Dark,84,84,86,"RGB(84, 84, 86)",#545456,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 4,systemGray4,Default Light,209,209,214,"RGB(209, 209, 214)",#D1D1D6,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 4,systemGray4,Default Dark,58,58,60,"RGB(58, 58, 60)",#3A3A3C,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 4,systemGray4,Increased Contrast Light,188,188,192,"RGB(188, 188, 192)",#BCBCC0,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 4,systemGray4,Increased Contrast Dark,68,68,70,"RGB(68, 68, 70)",#444446,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 5,systemGray5,Default Light,229,229,234,"RGB(229, 229, 234)",#E5E5EA,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 5,systemGray5,Default Dark,44,44,46,"RGB(44, 44, 46)",#2C2C2E,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 5,systemGray5,Increased Contrast Light,216,216,220,"RGB(216, 216, 220)",#D8D8DC,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 5,systemGray5,Increased Contrast Dark,54,54,56,"RGB(54, 54, 56)",#363638,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 6,systemGray6,Default Light,242,242,247,"RGB(242, 242, 247)",#F2F2F7,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 6,systemGray6,Default Dark,28,28,30,"RGB(28, 28, 30)",#1C1C1E,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 6,systemGray6,Increased Contrast Light,235,235,240,"RGB(235, 235, 240)",#EBEBF0,https://developer.apple.com/design/human-interface-guidelines/color
+Gray 6,systemGray6,Increased Contrast Dark,36,36,38,"RGB(36, 36, 38)",#242426,https://developer.apple.com/design/human-interface-guidelines/color
