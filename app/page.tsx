@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const NAV_LINKS = [
   { label: "Work", href: "#work" },
   { label: "About", href: "#about" },
@@ -25,7 +27,18 @@ export default function Home() {
           aria-label="Primary"
           className="mx-auto flex h-11 max-w-5xl items-center justify-between px-5 text-xs"
         >
-          <a href="#top" className="font-semibold tracking-tight">
+          <a
+            href="#top"
+            className="flex items-center gap-2 font-semibold tracking-tight"
+            aria-label="Rivoldy Makatita - back to top"
+          >
+            <Image
+              src="/brand/rapm-mark.svg"
+              alt=""
+              width={20}
+              height={20}
+              className="h-5 w-5"
+            />
             Rivoldy Makatita
           </a>
           <ul className="flex items-center gap-5">
@@ -150,7 +163,18 @@ export default function Home() {
 
       <footer className="bg-[#F2F2F7] px-5 py-16 text-[12px] leading-relaxed text-[#333333]">
         <div className="mx-auto flex max-w-5xl flex-col gap-6 md:flex-row md:justify-between">
-          <p>Rivoldy Makatita - Portfolio. This page uses honest placeholders.</p>
+          <div>
+            <Image
+              src="/brand/rapm-wordmark-dark.svg"
+              alt="RAPM - Rivoldy Adrian Prawira Makatita"
+              width={160}
+              height={40}
+              className="h-8 w-auto"
+            />
+            <p className="mt-4">
+              Rivoldy Makatita - Portfolio. This page uses honest placeholders.
+            </p>
+          </div>
           <nav aria-label="Footer">
             <ul className="flex gap-5">
               {NAV_LINKS.map((link) => (

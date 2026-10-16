@@ -11,6 +11,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Rivoldy Makatita - Portfolio",
   description: "Software Developer - selected work, about, and contact.",
+  icons: {
+    icon: "/brand/favicon.ico",
+    apple: "/brand/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
